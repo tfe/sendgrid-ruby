@@ -18,7 +18,6 @@ We appreciate your continued support, thank you!
 
 * [Installation](#installation)
 * [Quick Start](#quick-start)
-* [Processing Inbound Email](#inbound)
 * [Usage](#usage)
 * [Use Cases](#use_cases)
 * [Announcements](#announcements)
@@ -68,7 +67,6 @@ gem install sendgrid-ruby
 ## Dependencies
 
 - [Ruby-HTTP-Client](https://github.com/sendgrid/ruby-http-client)
-- [Sinatra](http://www.sinatrarb.com/) - this is only needed if you plan to process [Inbound Email](#inbound).
 
 <a name="quick-start"></a>
 # Quick Start
@@ -159,11 +157,6 @@ puts response.body
 puts response.parsed_body
 puts response.headers
 ```
-
-<a name="inbound"></a>
-# Processing Inbound Email
-
-Please see [our helper](https://github.com/sendgrid/sendgrid-ruby/tree/master/lib/sendgrid/helpers/inbound) for utilizing our Inbound Parse webhook.
 
 <a name="usage"></a>
 # Usage
